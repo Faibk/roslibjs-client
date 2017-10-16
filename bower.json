@@ -1,0 +1,17 @@
+{
+  "name": "roslibjs-client"
+  "description": "A wrapper for roslibjs that is more fault-tolerant and easier to use",
+  "main": "build/roslibjs-client.js",
+  "keywords": [
+    "roslibjs",
+    "nodejs"
+  ],
+  "authors": ["Milvus Robotics"],
+  "license": "MIT",
+  "homepage": "https://github.com/milvusrobotics/roslibjs-client#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "eventemitter2": "^4.1.0",
+    "roslib": "https://github.com/milvusrobotics/roslibjs.git"
+  }
+}
